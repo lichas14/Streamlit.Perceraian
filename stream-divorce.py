@@ -6,7 +6,7 @@ model = pickle.load(open('divorece_model.sav', 'rb'))
 
 st.title('Prediksi Perceraian')
 st.subheader('- tanggapan skala 0 - 5 poin :')
-st.text('0=Tidak pernah, 1=Pernah, 2=Terkadang, 3=Sering, 4=Selalu.')
+st.text('0 = Tidak pernah, 1 = Pernah, 2 = Terkadang, 3 = Sering, 4 = Selalu.')
 col1, col2, col3 = st.columns (3)
 
 with col1:
