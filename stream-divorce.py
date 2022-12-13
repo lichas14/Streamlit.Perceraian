@@ -10,7 +10,7 @@ st.text('0 = Tidak pernah')
 st.text('1 = Pernah')
 st.text('2 = Terkadang')
 st.text('3 = Sering')
-st.text('4 = Selalu')
+st.text('4 = Sangat sering')
 
 col1, col2, col3 = st.columns (3)
 
